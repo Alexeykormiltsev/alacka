@@ -1,0 +1,179 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #fff;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  flex-direction: column;
+  background: #072751;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+a[class] {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+.header {
+  padding: 40px 0 90px;
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header__top {
+  padding-bottom: 60px;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 141.8%;
+  letter-spacing: 0.14em;
+  color: #FFFFFF;
+  transition: all .4s;
+}
+
+.header__link:hover {
+  color: #FF0000;
+  text-decoration: underline;
+}
+
+.header__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 196px;
+  line-height: 141.8%;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  font-size: 11.8819px;
+  line-height: 141.8%;
+  letter-spacing: 0.14em;
+  padding: 0 27px 27px 0;
+  position: relative;
+}
+
+.header__content::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/header-after.png);
+  width: 82px;
+  height: 89px;
+  right: -6px;
+  bottom: -30px;
+}
+
+.header__content-item {
+  width: 329px;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 9px;
+  padding: 18px;
+}
+
+.main {
+  padding: 125px 0;
+}
+
+.main__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 141.8%;
+  letter-spacing: 0.14em;
+  color: #FF0000;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.main__text {
+  max-width: 700px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 141.8%;
+  letter-spacing: 0.14em;
+  margin-bottom: 74px;
+}
+
+.main__subtitle {
+  font-size: 18px;
+  line-height: 141.8%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.main__photos{
+  display: flex;
+  justify-content: space-between;
+}
